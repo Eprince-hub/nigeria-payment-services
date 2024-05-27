@@ -175,3 +175,12 @@ export const updateUserVirtualAccountBalanceMinusAmount = cache(
 );
 
 // https://chatgpt.com/c/6cdf4322-0e25-488b-9984-c8eccc0d79fb
+// https://www.nairaland.com/4366725/how-build-paystack-like-system
+// https://bank.codes/guides/nigeria-nuban-checker-guide/
+// https://www.cbn.gov.ng/out/2022/mpd/series%206.pdf
+// https://www.fxcintel.com/research/reports/nigerias-digital-economy-building-digital-payments-ecosystem
+// https://www.linkedin.com/pulse/understanding-nigerian-payment-gateway-space-porter-5-maro-elias/
+// https://medium.com/@victormba/the-nigerian-payment-system-licenses-explained-4c987ece823e
+// https://medium.com/@Hauwa22/a-beginners-guide-to-fintech-and-payments-in-nigeria-d5fcca890bd8
+// https://medium.com/@Hauwa22/a-beginners-guide-to-fintech-and-payments-in-nigeria-d5fcca890bd8
+// https://medium.com/@victormba/the-nigerian-payment-system-licenses-explained-4c987ece823e
