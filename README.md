@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Virtual Account Proof of Concept (POC)
 
-## Getting Started
+This project is a proof of concept (POC) demonstrating how virtual accounts work and how to connect your application to virtual account providers. The focus of this POC is the Nigerian market.
 
-First, run the development server:
+## Overview
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Virtual accounts are a powerful tool for businesses, allowing for seamless and secure transactions. This POC explores the integration of these accounts into an application, specifically focusing on providers like Paystack.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Naive demonstration of how virtual accounts function
+- Naive fund addition into the wallet
+- Naive fund withdrawal from the wallet, when a user pays for a service
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## What is a Virtual Account?
 
-## Learn More
+Virtual Accounts (VAs) is a feature that lets you create Nigerian bank accounts for your users. These accounts allow your users to carry out different transactions on your business.
 
-To learn more about Next.js, take a look at the following resources:
+When you create a Virtual Account (VA) for a user, all bank transfers to that account will automatically be recorded as transactions from that user.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Why Virtual Accounts?
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Virtual Accounts are a great way to manage your users' funds. They allow you to create a bank account for each user, which makes it easier to track their transactions and provide a wallet like services.
 
-## Deploy on Vercel
+## How to Use
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. Clone the repository
+2. Run `pnpm install` to install the dependencies
+3. Run `pnpm dev` to start the development server
+4. You will need a postgres database setup
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## UI
+
+![image](./public/empty.png)
+
+![image](./public/fund.png)
